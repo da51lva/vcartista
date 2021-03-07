@@ -9,7 +9,6 @@ export const Nav = styled.nav`
   width: 100%;
   height: 75px;
   padding-left: 5%;
-  padding-right: 5%;
   z-index: 1000;
   display: flex;
   justify-content: space-between;
@@ -18,7 +17,7 @@ export const Nav = styled.nav`
 
 export const Logo = styled.img`
   src: url(${props => props.src});
-  height: 100%;
-`;
+  height: 80%;
+ `;
 
 

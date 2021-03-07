@@ -1,7 +1,10 @@
+import "@fontsource/dancing-script";
+import "@fontsource/lato/400.css"
+
 const theme = {
   font: {
-    primary: `'Prata', serif`,
-    secondary: `'Average', serif`,
+    primary: `'Dancing Script'`,
+    secondary: `'Lato'`,
   },
   font_size: {
     small: 'font-size: 20px; line-height: 30px',

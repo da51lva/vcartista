@@ -1,13 +1,14 @@
 import React from 'react';
+import { Link } from "gatsby";
 import { NavLinkWrapper, StyledLink } from './style'
 
 const NavLinks = () => {
     return (
         <NavLinkWrapper>
-            <StyledLink to='/'>Home</StyledLink>
-            <StyledLink to='/'>HOW-IT-WORKS</StyledLink>
-            <StyledLink to='/'>Portfolio</StyledLink>
-            <StyledLink to='/'>Contact</StyledLink>
+            <StyledLink as={Link} to='/asf'>Home</StyledLink>
+            <StyledLink as={Link} to='/asdf'>About</StyledLink>
+            <StyledLink as={Link} to='/'>Portfolio</StyledLink>
+            <StyledLink as={Link} to='/'>Contact</StyledLink>
         </NavLinkWrapper>
     );
 }
