@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Componenet from '@static/logo.svg';
 
 export const Nav = styled.nav`
   background-color: ${props => props.theme.color.secondary};
@@ -15,8 +16,7 @@ export const Nav = styled.nav`
   align-items: center;
 `;
 
-export const Logo = styled.img`
-  src: url(${props => props.src});
+export const Logo = styled(Componenet)`
   height: 80%;
  `;
 

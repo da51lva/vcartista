@@ -23,7 +23,14 @@ module.exports = {
           '@static': path.resolve(__dirname, 'static/'),
         },
       },
-    },],
-
-
+    },
+    {
+      resolve: `gatsby-plugin-react-svg`,
+      options: {
+        rule: {
+          include: /\.svg/,
+        }
+      }
+    },
+  ],
 }
