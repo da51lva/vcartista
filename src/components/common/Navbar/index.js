@@ -1,15 +1,13 @@
 import React from 'react';
 import NavLinks  from './NavLinks/index'
-import { Nav , Logo} from './style';
-
-const NAV_ITEMS = ['Home', 'HOW-IT-WORKS', 'Portfololio', 'Contact'];
+import { Wrapper , Logo } from './style';
 
 const Navbar = () => {
     return (
-        <Nav>
+        <Wrapper transparent>
             <Logo/>
             <NavLinks />
-        </Nav>
+        </Wrapper>
     );
 }
 
