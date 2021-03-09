@@ -7,7 +7,7 @@ const Welcome = () => {
         <Container>  
             <StaticImage src="../../../assets/images/welcome-bg.jpg" placeholder="blurred" alt=""/>
             <Tagline>
-                <h1>Your most loved memories become art</h1>
+                Your most loved memories become art
             </Tagline>
         </Container>
     );

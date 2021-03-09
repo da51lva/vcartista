@@ -1,9 +1,10 @@
 import "@fontsource/dancing-script";
-import "@fontsource/lato/400.css"
+import "@fontsource/lato/400.css";
+import "../assets/fonts/wreath-medium.css";
 
 const theme = {
   font: {
-    primary: `'Dancing Script'`,
+    primary: `'Wreath'`,
     secondary: `'Lato'`,
   },
   font_size: {
@@ -11,7 +12,7 @@ const theme = {
     regular: 'font-size: 24px; line-height: 32px',
     large: 'font-size: 30px; line-height: 40px',
     larger: 'font-size: 36px; line-height: 48px',
-    xlarge: 'font-size: 60px; line-height: 68px',
+    xlarge: 'font-size: 65px; line-height: 75px',
   },
   color: {
     white: {

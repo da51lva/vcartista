@@ -11,10 +11,10 @@ export const Container = styled.div`
 export const BGImage = styled(StaticImage)`
 `;
 
-export const Tagline = styled.div`
+export const Tagline = styled.h1`
     width: 60%;
     position: absolute;
-    top: 33%;
+    top: 2.5em;
     padding: 0 1em;
     text-align: center;
     
