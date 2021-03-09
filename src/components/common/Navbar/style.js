@@ -4,7 +4,7 @@ import Componenet from '@static/logo.svg';
 export const Wrapper = styled.nav`
 
   width: 100%;
-  height: 75px;
+  height: 6.2vw;
   position: fixed;
   z-index: 1000;
   padding-left: 5%;

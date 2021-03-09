@@ -8,11 +8,12 @@ const theme = {
     secondary: `'Lato'`,
   },
   font_size: {
-    small: 'font-size: 20px; line-height: 30px',
-    regular: 'font-size: 24px; line-height: 32px',
-    large: 'font-size: 30px; line-height: 40px',
-    larger: 'font-size: 36px; line-height: 48px',
-    xlarge: 'font-size: 65px; line-height: 75px',
+    xsmall: 'font-size: 1vw; line-height: 1.1vw',
+    small: 'font-size: 1.5vw; line-height: 1.6vw',
+    regular: 'font-size: 2vw; line-height: 2.1vw',
+    large: 'font-size: 3vw; line-height: 3.2vw',
+    larger: 'font-size: 4vw; line-height: 4.2vw',
+    xlarge: 'font-size: 5.3vw; line-height: 5.6vw',
   },
   color: {
     white: {
@@ -30,7 +31,7 @@ const theme = {
   screen: {
     xs: '575px',
     sm: '767px',
-    md: '991px',
+    md: '1050px',
     lg: '1199px',
   },
 };

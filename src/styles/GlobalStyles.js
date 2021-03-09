@@ -35,25 +35,7 @@ const GlobalStyles = createGlobalStyle`
     ${props => props.theme.font_size.regular};
     color: ${props => props.theme.color.black.light};
   }
-
-  @media (max-width: ${props => props.theme.screen.sm}) {
-    h1 {
-      ${props => props.theme.font_size.larger};
-    }
-
-    h2 {
-      ${props => props.theme.font_size.large};
-    }
-
-    h3 {
-      ${props => props.theme.font_size.regular};
-    }
-
-    p {
-      ${props => props.theme.font_size.small};
-    }
   }
-
 `;
 
 export default GlobalStyles;

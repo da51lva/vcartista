@@ -14,8 +14,7 @@ export const BGImage = styled(StaticImage)`
 export const Tagline = styled.h1`
     width: 60%;
     position: absolute;
-    top: 2.5em;
+    top: 20%;
     padding: 0 1em;
     text-align: center;
-    
 `;

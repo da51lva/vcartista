@@ -8,7 +8,7 @@ export const NavLinkWrapper = styled.div`
 
 export const StyledLink = styled.div`
   font-family: ${props => props.theme.font.secondary};
-  ${props => props.theme.font_size.small};
+  ${props => props.theme.font_size.regular};
   margin: 0 1.5em 0 0;
 
   text-decoration: none;
