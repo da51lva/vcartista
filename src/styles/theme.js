@@ -1,11 +1,12 @@
 import "@fontsource/dancing-script";
 import "@fontsource/lato/400.css";
+import "@fontsource/raleway";
 import "../assets/fonts/wreath-medium.css";
 
 const theme = {
   font: {
     primary: `'Wreath'`,
-    secondary: `'Lato'`,
+    secondary: `'Raleway'`,
   },
   font_size: {
     xsmall: 'font-size: 1vw; line-height: 1.1vw',
