@@ -6,7 +6,7 @@ import { Container , Tagline, ShopButton } from './style';
 const Welcome = () => {
     return (
         <Container>  
-            <StaticImage src="../../../assets/images/welcome-bg.jpg" placeholder="blurred" alt=""/>
+            <StaticImage src="../../../assets/images/welcome-bg.jpg" placeholder="blurred"  style={{ display:"block"}} alt=""/>
             <Tagline>
                 <h1> Your most loved memories become art </h1>
                 <br/><br/>

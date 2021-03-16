@@ -4,8 +4,6 @@ import { Button } from '@common/Button';
 
 
 export const Container = styled.div`
-    position: absolute;  
-    top: 0;
     width: 100%;
 `;
 
