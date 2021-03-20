@@ -1,9 +1,10 @@
 import React from "react";
-import Layout from "@common/Layout/index";
 import Navbar from "@common/Navbar/index";
 import Welcome from "@sections/Welcome/index";
 import Summary from "@sections/Summary/index";
 import Footer from "@common/Footer/index";
+import { ThemeProvider } from 'theme-ui';
+import theme from '../gatsby-plugin-theme-ui/index';
 
 export default function Home() {
   return (
@@ -14,5 +15,14 @@ export default function Home() {
      <Footer/>
    </Layout>
   );
-  
+
+
+ function Layout( {children} ){
+   return (
+        <ThemeProvider theme={theme}>{children}</ThemeProvider>
+   );
+ }
+
+
+
 }

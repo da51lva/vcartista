@@ -3,6 +3,7 @@ import Contact from '@common/Contact/index';
 import { Wrapper , Flex, ListWrapper, FooterList } from './style';
 import columns from './columns.json';
 
+
 const Footer = () => {
     return (
         <Wrapper>

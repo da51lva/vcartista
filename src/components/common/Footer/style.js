@@ -1,9 +1,9 @@
-import styled from 'styled-components';
+import styled from "@emotion/styled";
 
 export const Wrapper = styled.footer`
     width: 100%;
     padding: 2em 2em;
-    background-color: ${props => props.theme.color.secondary};    
+    background-color: ${props => props.theme.colors.background};    
 `;
 
 export const Flex = styled.div`

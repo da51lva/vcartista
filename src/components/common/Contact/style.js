@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from '@emotion/styled';
 import svg from '@static/logo-full.svg';
 
 export const ListWrapper = styled.div`

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "@emotion/styled";
 import { StaticImage } from 'gatsby-plugin-image';
 import { Button } from '@common/Button';
 
@@ -19,5 +19,5 @@ export const Tagline = styled.div`
 `;
 
 export const ShopButton = styled(Button)`
-    ${props => props.theme.font_size.regular};
+    ${props => props.theme.fontSizes[2]};
 `;

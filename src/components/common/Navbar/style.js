@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "@emotion/styled";
 import Componenet from '@static/logo.svg';
 
 export const Wrapper = styled.nav`
@@ -13,7 +13,7 @@ export const Wrapper = styled.nav`
   justify-content: space-between;
   align-items: center;
 
-  background-color: ${props => (props.transparent? 'transparent' : props.theme.color.secondary)};
+  background-color: ${props => (props.transparent? 'transparent' : props.theme.colors.background)};
 `;
 
 export const Logo = styled(Componenet)`
