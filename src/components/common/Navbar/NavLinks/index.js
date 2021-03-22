@@ -10,6 +10,7 @@ const NavLinks = () => {
             <StyledLink as={Link} to='/'>Portfolio</StyledLink>
             <StyledLink as={Link} to='/'>Contact</StyledLink>
         </NavLinkWrapper>
+        
     );
 }
 

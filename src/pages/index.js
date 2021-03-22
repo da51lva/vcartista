@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "@common/Navbar/index";
 import Welcome from "@sections/Welcome/index";
 import Summary from "@sections/Summary/index";
-import Footer from "@common/Footer/index";
+import Footer from "@organisms/Footer";
 import { ThemeProvider } from 'theme-ui';
 import theme from '../gatsby-plugin-theme-ui/index';
 

@@ -1,5 +1,7 @@
+import "@fontsource/raleway";
+
 export default {
-    "space": [
+    space: [
       0,
       4,
       8,
@@ -10,10 +12,10 @@ export default {
       256,
       512
     ],
-    "fonts": {
-      "body": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
-      "heading": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
-      "moonospace": "Menlo, monospace"
+    fonts: {
+      body: "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+      heading: "Raleway",
+      moonospace: "Menlo, monospace"
     },
     "fontSizes": [
       12,
@@ -38,23 +40,43 @@ export default {
     "colors": {
       "text": "#454f5b",
       "background": "#fff",
-      "primary": "#5c6ac4",
+      "primary": "#FCF2FB",
       "secondary": "#006fbb",
       "highlight": "#47c1bf",
       "muted": "#e6e6e6",
       "gray": "#dfe3e8",
       "accent": "#f49342",
       "darken": "#00044c",
-      "modes": {
-        "dark": {
-          "text": "#3e4155",
-          "background": "#000639",
-          "primary": "#9c6ade",
-          "secondary": "#b4e1fa",
-          "highlight": "#b7ecec",
-          "muted": "#e6e6e6"
-        }
+    },
+    text: {
+      caps: {
+        textTransform: 'uppercase',
+        letterSpacing: '0.2em',
+      },
+      heading: {
+        fontFamily: 'heading',
+        fontWeight: 'heading',
+        lineHeight: 'heading',
+      },
+    },
+    links: {
+      footer: {
+        fontFamily: 'heading',
+        fontWeight: 'body',
+        color: 'text',
+        textDecoration: 'none',
+        fontSize: 2,
+      },
+      nav: {
+        fontWeight: 'bold',
+        color: 'inherit',
+        textDecoration: 'none',
       }
+    },
+    images: {
+      logo: {
+        width: 200,
+        },
     },
     "styles": {
       "root": {
@@ -119,6 +141,12 @@ export default {
         "code": {
           "color": "inherit"
         }
+      },
+      ul: {
+        listStyle: 'none',
+        padding: 0,
+        margin: 0,
+        textAlign: 'center'
       },
       "code": {
         "fontFamily": "monospace",
