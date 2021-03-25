@@ -1,19 +1,19 @@
 /** @jsx jsx */
-import { jsx , Styled } from 'theme-ui'
+import { jsx , Themed } from 'theme-ui'
 import { Link as GatsbyLink } from 'gatsby'
-import { Box, Link, Heading } from '@theme-ui/components'
+import { Box, Link, Heading } from 'theme-ui'
 
 const FooterList = ( {column} ) => {
     return (
         <Box>
-            <Heading as='h4' sx={{textAlign: 'center',fontSize:3}}> {column.heading} </Heading>
-            <Styled.ul>
+            <Heading as='h4' mb={3} sx={{textAlign: 'center',fontSize:2}}> {column.heading} </Heading>
+            <Themed.ul>
                 {column.contents.map(({name , to}) => (
                     <li key={name}>
-                        <Link variant='footer' as={GatsbyLink} to={to}>{name}</Link>
+                        <Link key={name} variant='footer' as={GatsbyLink} to={to}>{name}</Link>
                     </li>
                 ))}
-            </Styled.ul>
+            </Themed.ul>
         </Box>
     );
 }

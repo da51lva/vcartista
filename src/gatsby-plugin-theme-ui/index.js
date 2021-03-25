@@ -1,6 +1,7 @@
 import "@fontsource/raleway";
 
-export default {
+const theme = {
+    
     space: [
       0,
       4,
@@ -12,12 +13,15 @@ export default {
       256,
       512
     ],
+    sizes: {
+      social: 35
+    },
     fonts: {
       body: "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
-      heading: "Raleway",
+      heading: 'Raleway',
       moonospace: "Menlo, monospace"
     },
-    "fontSizes": [
+    fontSizes: [
       12,
       14,
       16,
@@ -34,8 +38,8 @@ export default {
       "bold": 700
     },
     "lineHeights": {
-      "body": 1.75,
-      "heading": 1.25
+      "body": 1.6,
+      "heading": 1.16
     },
     "colors": {
       "text": "#454f5b",
@@ -78,6 +82,7 @@ export default {
         width: 200,
         },
     },
+    
     "styles": {
       "root": {
         "fontFamily": "body",
@@ -132,8 +137,8 @@ export default {
         "fontWeight": "body",
         "lineHeight": "body"
       },
-      "a": {
-        "color": "primary"
+      a: {
+        color: 'text'
       },
       "pre": {
         "fontFamily": "monospace",
@@ -170,3 +175,5 @@ export default {
       }
     }
   }
+
+  export default theme;
