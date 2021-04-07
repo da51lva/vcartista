@@ -1,5 +1,5 @@
 import React from 'react';
-import NavLinks  from './NavLinks/index'
+import NavLinks  from '@molecules/NavLinks'
 import { Wrapper , Logo } from './style';
 
 const Navbar = () => {

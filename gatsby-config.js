@@ -27,6 +27,7 @@ module.exports = {
           '@sections': path.resolve(__dirname, 'src/components/sections'),
           '@images': path.resolve(__dirname, 'src/assets/images'),
           '@en': path.resolve(__dirname, 'src/assets/content/en'),
+          '@fonts': path.resolve(__dirname, 'src/assets/fonts')
         },
       },
     },

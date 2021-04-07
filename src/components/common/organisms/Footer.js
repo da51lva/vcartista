@@ -4,7 +4,6 @@ import {Flex , Container , Grid, Image} from 'theme-ui'
 import FooterLinks from '@molecules/FooterLinks'
 import ContactInfo from '@molecules/ContactInfo';
 import SocialMedia from '@molecules/SocialMedia';
-import styled from '@emotion/styled';
 
 
 const Footer = () => {
