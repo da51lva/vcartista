@@ -5,14 +5,7 @@ import LINKS from '@en/nav/nav-links.json'
 
 const Navlinks = () => {
   return (
-    <Flex
-      sx={{
-        justifyContent: 'space-around',
-        '& > *': {
-          marginRight: 4,
-        },
-      }}
-    >
+    <Flex sx={sxflex}>
       {LINKS.map(({ name, to }) => (
         <Link as={GatsbyLink} variant='nav' key={name} to={to}>
           {name}
@@ -22,5 +15,14 @@ const Navlinks = () => {
   )
 }
 
+const sxflex = {
+  justifyContent: 'space-around',
+  '& > a': {
+    marginRight: 3,
+  },
+  'a:last-child': {
+    margin: 0,
+  },
+}
 
 export default Navlinks

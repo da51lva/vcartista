@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "@common/Navbar/index";
+import Nav from "@organisms/Nav";
 import Welcome from "@sections/Welcome/index";
 import Summary from "@sections/Summary/index";
 import Footer from "@organisms/Footer";
@@ -9,7 +9,7 @@ import theme from '../gatsby-plugin-theme-ui/index';
 export default function Home() {
   return (
    <Layout>
-     <Navbar/>
+     <Nav/>
      <Welcome/>
      <Summary/>
      <Footer/>

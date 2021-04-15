@@ -26,9 +26,9 @@ const theme = {
     heading: 1.16,
   },
   colors: {
-    text: '#454f5b',
+    text: '#272c33',
     background: '#fff',
-    primary: '#FCF2FB',
+    primary: '#AF9390',
     secondary: '#006fbb',
     highlight: '#47c1bf',
     muted: '#e6e6e6',
