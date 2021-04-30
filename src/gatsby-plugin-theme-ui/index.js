@@ -1,7 +1,7 @@
 import '@fontsource/raleway'
-import "@fontsource/raleway/100.css"
-import "@fontsource/raleway/200.css"
-import "@fonts/wreath-medium.css"
+import '@fontsource/raleway/100.css'
+import '@fontsource/raleway/200.css'
+import '@fonts/wreath-medium.css'
 
 const theme = {
   space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
@@ -27,7 +27,7 @@ const theme = {
   },
   colors: {
     text: '#272c33',
-    background: '#fff',
+    background: '#c9c0be',
     primary: '#AF9390',
     secondary: '#006fbb',
     highlight: '#47c1bf',
@@ -46,8 +46,6 @@ const theme = {
       fontWeight: 'heading',
       lineHeight: 'heading',
     },
-    
-
   },
   links: {
     footer: {
@@ -91,6 +89,7 @@ const theme = {
       lineHeight: 'heading',
       fontWeight: 'heading',
       fontSize: 4,
+      textAlign: 'center',
     },
     h3: {
       color: 'text',
@@ -125,6 +124,7 @@ const theme = {
       fontFamily: 'primary',
       fontWeight: 'body',
       lineHeight: 'body',
+      textAlign: 'justify',
     },
     a: {
       color: 'text',
