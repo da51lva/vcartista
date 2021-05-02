@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx , Container, Flex, Image } from 'theme-ui'
+import { jsx , Container, Flex } from 'theme-ui'
 import NavLinks from '@molecules/NavLinks'
 import Logo from '@static/logo.svg'
 

@@ -27,14 +27,15 @@ const theme = {
   },
   colors: {
     text: '#272c33',
-    background: '#c9c0be',
-    primary: '#AF9390',
+    background: '#dcdae6',
+    primary: '#a8a2c3',
     secondary: '#006fbb',
     highlight: '#47c1bf',
     muted: '#e6e6e6',
     gray: '#dfe3e8',
     accent: '#f49342',
     darken: '#00044c',
+    light: '#f6f6f6',
   },
   text: {
     caps: {
@@ -161,6 +162,41 @@ const theme = {
     },
     img: {
       maxWidth: '100%',
+    },
+  },
+  forms: {
+    label: {
+      fontSize: 1,
+      fontWeight: 'bold',
+    },
+    input: {
+      bg: 'light',
+      borderColor: 'gray',
+      '&:focus': {
+        borderColor: 'primary',
+        boxShadow: (t) => `0 0 0 2px ${t.colors.primary}`,
+        outline: 'none',
+      },
+    },
+    select: {
+      borderColor: 'gray',
+      '&:focus': {
+        borderColor: 'primary',
+        boxShadow: (t) => `0 0 0 2px ${t.colors.primary}`,
+        outline: 'none',
+      },
+    },
+    textarea: {
+      bg: 'light',
+      borderColor: 'gray',
+      '&:focus': {
+        borderColor: 'primary',
+        boxShadow: (t) => `0 0 0 2px ${t.colors.primary}`,
+        outline: 'none',
+      },
+    },
+    slider: {
+      bg: 'muted',
     },
   },
 }

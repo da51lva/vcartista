@@ -2,8 +2,9 @@ import React from 'react'
 import Nav from '@organisms/Nav'
 import Welcome from '@sections/Welcome/index'
 import Summary from '@sections/Summary'
+import Contact from '@sections/Contact'
 import Footer from '@organisms/Footer'
-import { ThemeProvider } from 'theme-ui'
+import { css, ThemeProvider } from 'theme-ui'
 import theme from '../gatsby-plugin-theme-ui/index'
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Nav />
       <Welcome />
       <Summary />
+      <Contact />
       <Footer />
     </Layout>
   )
