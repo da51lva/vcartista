@@ -36,6 +36,10 @@ const theme = {
     accent: '#f49342',
     darken: '#00044c',
     light: '#f6f6f6',
+    accept: '#5fd152',
+    acceptLight: '#d8e4d7',
+    reject: '#db516c',
+    rejectLight: '#fae4e8',
   },
   text: {
     caps: {

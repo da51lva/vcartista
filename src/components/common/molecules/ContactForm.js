@@ -1,5 +1,6 @@
 import React from 'react'
-import { Box, Grid, Label, Input, Textarea, Button } from 'theme-ui'
+import { Box, Grid, Label, Input, Textarea, Button, Text } from 'theme-ui'
+import DropZone from '@molecules/DropZone'
 
 const ContactForm = (props) => {
   return (
@@ -9,6 +10,7 @@ const ContactForm = (props) => {
         <FormEmail mbLabel={1} mbInput={3} />
       </Grid>
       <FormMessage mbLabel={1} mbInput={3} />
+      <DropZone sx={{ mb: 3 }}></DropZone>
       <Button>Submit</Button>
     </Box>
   )
