@@ -16,6 +16,7 @@
     "@emotion/react": "^11.1.5",
     "@emotion/styled": "^11.1.5",
     "@fontsource/dancing-script": "^4.2.2",
+    "@fontsource/raleway": "^4.5.5",
     "@theme-ui/style-guide": "^0.3.5",
     "gatsby": "^3.0.1",
     "gatsby-plugin-alias-imports": "^1.0.5",
