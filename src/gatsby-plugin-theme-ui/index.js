@@ -2,6 +2,7 @@ import '@fontsource/raleway'
 import '@fontsource/raleway/100.css'
 import '@fontsource/raleway/200.css'
 import '@fonts/wreath-medium.css'
+import '@fonts/grandoise-demo.css'
 
 const theme = {
   space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
@@ -10,10 +11,10 @@ const theme = {
   },
   fonts: {
     primary: 'Raleway',
-    secondary: 'Wreath',
+    secondary: 'Grandoise',
     moonospace: 'Menlo, monospace',
   },
-  fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 96],
+  fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 80, 112, 144, 176, 208, 240],
   fontWeights: {
     thin: 100,
     body: 200,
@@ -23,7 +24,7 @@ const theme = {
   },
   lineHeights: {
     body: 1.6,
-    heading: 1.16,
+    heading: 0.6,
   },
   colors: {
     text: '#272c33',
@@ -47,7 +48,7 @@ const theme = {
       letterSpacing: '0.2em',
     },
     heading: {
-      fontFamily: 'primary',
+      fontFamily: 'secondary',
       fontWeight: 'heading',
       lineHeight: 'heading',
     },
@@ -83,22 +84,22 @@ const theme = {
     },
     h1: {
       color: 'text',
-      fontFamily: 'primary',
+      fontFamily: 'secondary',
       lineHeight: 'heading',
-      fontWeight: 'heading',
-      fontSize: [4, 5, 6],
+      fontWeight: 'body',
+      fontSize: [11,12,13],
     },
     h2: {
       color: 'text',
-      fontFamily: 'primary',
+      fontFamily: 'secondary',
       lineHeight: 'heading',
-      fontWeight: 'heading',
-      fontSize: 4,
+      fontWeight: 'body',
+      fontSize: 10,
       textAlign: 'center',
     },
     h3: {
       color: 'text',
-      fontFamily: 'primary',
+      fontFamily: 'secondary',
       lineHeight: 'heading',
       fontWeight: 'heading',
       fontSize: 3,

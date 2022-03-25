@@ -15,12 +15,9 @@ const Welcome = () => {
         alt=''
       />
       <Tagline>
-        <Themed.h1> Your most loved memories become art </Themed.h1>
+        <Themed.h1> Your most loved memories <br /> become art </Themed.h1>
         <br />
         <br />
-        <ShopButton as={Link} to='/'>
-          My Shop
-        </ShopButton>
       </Tagline>
     </Container>
   )
