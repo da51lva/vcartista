@@ -1,0 +1,60 @@
+[
+    {
+        "id":0,
+        "heading": "Shop",
+        "contents": [
+            {
+                "name": "Shop",
+                "to":"/"
+            },
+            {
+                "name": "Pricing",
+                "to":"/"
+            }
+        ]
+    },
+    {
+        "id":1,
+        "heading": "Explore",
+        "contents": [
+            {
+                "name": "Portfolio",
+                "to":"/"
+            },
+            {
+                "name": "Testimonials",
+                "to":"/"
+            }
+        ]
+    },
+    {
+        "id":2,
+        "heading": "Support",
+        "contents": [
+            {
+                "name": "Get In Touch",
+                "to":"/"
+            },
+            {
+                "name": "Testimonials",
+                "to":"/"
+            },
+            {
+                "name": "Shipping & Taxes",
+                "to":"/"
+            },
+            {
+                "name": "Frequently Asked Questions",
+                "to":"/"
+            },
+            {
+                "name": "Privacy Policy",
+                "to":"/"
+            },
+            {
+                "name": "Disclaimer",
+                "to":"/"
+            }
+        ]
+    }
+]

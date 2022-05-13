@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Home",
+        "to": "/"
+    },
+    {
+        "name": "Me",
+        "to": "/"
+    },
+    {
+        "name": "Pricing",
+        "to": "/"
+    },
+    {
+        "name": "Portfolio",
+        "to": "/"
+    },
+    {
+        "name": "Contact",
+        "to": "/"
+    }
+]
