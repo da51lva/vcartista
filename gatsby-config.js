@@ -9,7 +9,6 @@ const path = require('path');
 module.exports = {
   plugins: [
     'gatsby-plugin-theme-ui',
-    'gatsby-theme-style-guide',
     `gatsby-plugin-emotion`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
